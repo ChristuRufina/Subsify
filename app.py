@@ -1,4 +1,3 @@
-
 import streamlit as st
 from streamlit_option_menu import option_menu
 import os
@@ -22,6 +21,21 @@ def load_user_data(username):
         st.error(f"Error: CSV file '{csv_filename}' not found.")
         return None
 
+# Define the function to authenticate user
+def authenticate_user(username, password):
+    # Check if the provided username and password are the same
+    if username == password:
+        return True
+    else:
+        return False
+
+# Define the function to display churn status for each platform
+def display_churn_status(platform, prediction, selected_user):
+    if prediction == 1:
+        st.write(f"{selected_user} should consider unenrolling from {platform}.")
+    else:
+        st.write(f"{selected_user} doesn't need to unenroll from {platform} based on watch time.")
+
 # Define the function to display the dashboard
 def dashboard(username):
     st.title("🎯 Subsify Dashboard")
@@ -39,26 +53,19 @@ def dashboard(username):
     # Display user data
     st.write(selected_user_data)
 
-    # Make predictions using the trained models (assuming predictions are available)
-    netflix_prediction = 1  # Example prediction, replace with actual prediction
-    primevideo_prediction = 0  # Example prediction, replace with actual prediction
-    hotstar_prediction = 1  # Example prediction, replace with actual prediction
-    zee5_prediction = 0  # Example prediction, replace with actual prediction
+    # Make predictions using the trained models (Assuming predictions are available)
+    netflix_prediction = 1  # Replace with actual prediction for Netflix
+    primevideo_prediction = 0  # Replace with actual prediction for Prime Video
+    hotstar_prediction = 1  # Replace with actual prediction for Hotstar
+    zee5_prediction = 0  # Replace with actual prediction for Zee5
 
     # Display recommendations based on predictions
     st.subheader("Recommendations")
-
-    def display_churn_status(platform, prediction):
-        if prediction == 1:
-            st.write(f"{selected_user} should consider unsubscribing from {platform}.")
-        else:
-            st.write(f"{selected_user} should continue the existing plan on {platform}.")
-
-    display_churn_status('Netflix', netflix_prediction)
-    display_churn_status('Prime Video', primevideo_prediction)
-    display_churn_status('Hotstar', hotstar_prediction)
-    display_churn_status('Zee5', zee5_prediction)
-
+    display_churn_status('Netflix', netflix_prediction, selected_user)
+    display_churn_status('Prime Video', primevideo_prediction, selected_user)
+    display_churn_status('Hotstar', hotstar_prediction, selected_user)
+    display_churn_status('Zee5', zee5_prediction, selected_user)
+  
     # Create a pie chart for platform usage
     st.subheader("Platform Usage Distribution")
     fig, ax = plt.subplots()
@@ -105,15 +112,29 @@ with st.markdown(
 
 # Show the selected option
 if selected == "Home":
-    st.title(f"You have selected {selected}")
+    st.title(f"Welcome to {selected}")
+    st.title("Welcome to Subsify!")
+    st.image("pic1.png")
+    st.write("""
+        Subsify offers an all-encompassing solution for efficiently managing your subscription services. Whether you need to monitor your viewing habits, receive tailored recommendations, or organize your subscriptions seamlessly, Subsify is the ultimate tool for you!
+
+Feel empowered to take charge of your entertainment journey with Subsify. Explore its array of features and unlock a world of convenience at your fingertips.
+    """)
+    st.write("Choose an option from the menu on the left to get started.")  
 elif selected == "Dashboard":
-    st.title(f"You have selected {selected}")
+    st.title(f"You have entered into  {selected}")
     # In the dashboard function, pass the username correctly
     username = st.text_input("Enter your username:")
-    if username:
-        dashboard(username)
+    password = st.text_input("Enter your password:", type="password")
+    if st.button("Login"):
+        if authenticate_user(username, password):
+            st.success("Login successful!")
+            st.session_state.username = username
+            dashboard(username)
+        else:
+            st.error("Login failed. Please check your username and password.")
 elif selected == "Subsify-AI":
-    st.title(f"You have selected {selected}")
+    st.title(f"Chat away with with our {selected}")
     # Set up Google Gemini-Pro AI model
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
     gen_ai.configure(api_key=GOOGLE_API_KEY)

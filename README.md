@@ -22,7 +22,7 @@ Welcome to our Project!
 
 ## Subscription Management System with Improved Personalized Dashboard
 
-🔐💼💻
+
 
 The Subscription Management System with Improved Personalized Dashboard is a comprehensive solution designed to streamline subscription management processes while offering an enhanced and personalized user experience.
 
@@ -31,11 +31,11 @@ In today's digital age, managing subscriptions efficiently is crucial for busine
 
 ## Inspiration
 
-🚀 **Efficient Subscription Management**: In today's digital world, individuals and businesses subscribe to various services ranging from streaming platforms to software licenses. However, managing multiple subscriptions can become overwhelming and lead to overspending or unused services. 
+ **Efficient Subscription Management**: In today's digital world, individuals and businesses subscribe to various services ranging from streaming platforms to software licenses. However, managing multiple subscriptions can become overwhelming and lead to overspending or unused services. 
 
-💡 **Personalized User Experience**: Many subscription management tools lack personalization, often presenting users with generic dashboards that don't cater to their specific needs and preferences. We were inspired to create a system that goes beyond basic subscription management by offering a personalized dashboard tailored to each user's subscription habits, preferences, and usage patterns.ecisions about their subscriptions.
+ **Personalized User Experience**: Many subscription management tools lack personalization, often presenting users with generic dashboards that don't cater to their specific needs and preferences. We were inspired to create a system that goes beyond basic subscription management by offering a personalized dashboard tailored to each user's subscription habits, preferences, and usage patterns.ecisions about their subscriptions.
 
-📈 **Data-Driven Insights**: Another motivation behind the Subscription Management System was to leverage data-driven insights to optimize subscription management. By analyzing user behavior and subscription data, we can provide valuable insights such as subscription utilization rates, cost-saving opportunities, and personalized recommendations for new subscriptions or plan upgrades. 
+ **Data-Driven Insights**: Another motivation behind the Subscription Management System was to leverage data-driven insights to optimize subscription management. By analyzing user behavior and subscription data, we can provide valuable insights such as subscription utilization rates, cost-saving opportunities, and personalized recommendations for new subscriptions or plan upgrades. 
 
 
 
@@ -57,13 +57,13 @@ This repository contains the codebase, resources, and documentation related to t
 
 The social impact of the Efficient Subscription Management System is significant and multifaceted, addressing various challenges faced by individuals and businesses in today's digital landscape:
 
-💰 **Financial Stability**: By providing users with a centralized platform to manage all their subscriptions efficiently, the system helps individuals and businesses avoid overspending on unused or redundant services. This can lead to improved financial stability by allowing users to allocate their resources more effectively and avoid unnecessary expenses.
+ **Financial Stability**: By providing users with a centralized platform to manage all their subscriptions efficiently, the system helps individuals and businesses avoid overspending on unused or redundant services. This can lead to improved financial stability by allowing users to allocate their resources more effectively and avoid unnecessary expenses.
 
-🧠 **Reduced Cognitive Load**: Managing multiple subscriptions can be overwhelming and time-consuming, leading to increased stress and cognitive load. The Subscription Management System alleviates this burden by streamlining the process, allowing users to easily track, modify, and cancel subscriptions from a single dashboard. 
+ **Reduced Cognitive Load**: Managing multiple subscriptions can be overwhelming and time-consuming, leading to increased stress and cognitive load. The Subscription Management System alleviates this burden by streamlining the process, allowing users to easily track, modify, and cancel subscriptions from a single dashboard. 
 
-🎨 **Personalized Experience**: Many existing subscription management tools offer generic dashboards that do not cater to the specific needs and preferences of individual users. By offering a personalized dashboard tailored to each user's subscription habits, preferences, and usage patterns, the system enhances the user experience and fosters a sense of empowerment and control over their subscriptions.
+ **Personalized Experience**: Many existing subscription management tools offer generic dashboards that do not cater to the specific needs and preferences of individual users. By offering a personalized dashboard tailored to each user's subscription habits, preferences, and usage patterns, the system enhances the user experience and fosters a sense of empowerment and control over their subscriptions.
 
-📊 **Data-Driven Insights**: By analyzing user behavior and subscription data, we can provide valuable insights such as subscription utilization rates, cost-saving opportunities, and personalized recommendations for new subscriptions or plan upgrades. 
+ **Data-Driven Insights**: By analyzing user behavior and subscription data, we can provide valuable insights such as subscription utilization rates, cost-saving opportunities, and personalized recommendations for new subscriptions or plan upgrades. 
 
 ## Intel® oneAPI
 
@@ -91,22 +91,22 @@ By integrating Intel® Extension for Scikit-learn*, We achieved substantial acce
 
 # What We Learned 
 
-### Problem Exploration 🔍
+### Problem Exploration 
 Explored challenges in subscription management, including tracking services, identifying redundancies, and optimizing costs.
 
-### User-Centric Design 🎨
+### User-Centric Design 
 Prioritized user experience, emphasizing simplicity and personalization based on iterative feedback.
 
-### Technical Skills Growth 💻
+### Technical Skills Growth 
 Expanded skills in frontend and backend development, leveraging Streamlit and Intel® oneAPI libraries for machine learning optimization.
 
-### Agile Methodologies 🔄
+### Agile Methodologies 
 Adopted Scrum and Kanban for effective project management, enabling continuous iteration and responsiveness.
 
-### Business Insights 💼
+### Business Insights 
 Gained valuable market insights through research, competitor analysis, and user validation, shaping product development and commercialization strategies.
 
-### Collaboration & Communication 🤝
+### Collaboration & Communication 
 Facilitated seamless teamwork through effective communication tools and practices, ensuring alignment on project goals and priorities.
 
 

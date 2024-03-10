@@ -6,7 +6,6 @@
 ![Project Banner](gitbanner.jpg)
 # Subsify - Subscription Management Application
 Welcome to our Project!
-[View Video](https://www.example.com)
 ## Table of Contents
 - [About the Project](#about-the-project)
 - [Inspiration](#inspiration)

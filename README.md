@@ -15,7 +15,7 @@ Welcome to our Project!
   - [Intel® OneAPI](#intel-oneapi)
 - [Use of oneAPI in our project](#use-of-oneapi-in-our-project)
 - [What we learned](#what-we-learned)
-- [References for datasets](#references-for-datasets)
+
 
 ## About The Project
 
@@ -32,13 +32,13 @@ In today's digital age, managing subscriptions efficiently is crucial for busine
 
 ## Inspiration
 
-🚀 **Efficient Subscription Management**: In today's digital world, individuals and businesses subscribe to various services ranging from streaming platforms to software licenses. However, managing multiple subscriptions can become overwhelming and lead to overspending or unused services. The inspiration behind the Subscription Management System stemmed from the need to streamline this process and provide users with a centralized platform to manage all their subscriptions efficiently.
+🚀 **Efficient Subscription Management**: In today's digital world, individuals and businesses subscribe to various services ranging from streaming platforms to software licenses. However, managing multiple subscriptions can become overwhelming and lead to overspending or unused services. 
 
-💡 **Personalized User Experience**: Many subscription management tools lack personalization, often presenting users with generic dashboards that don't cater to their specific needs and preferences. We were inspired to create a system that goes beyond basic subscription management by offering a personalized dashboard tailored to each user's subscription habits, preferences, and usage patterns. By understanding the individual needs of users, we aim to enhance their overall subscription experience and empower them to make informed decisions about their subscriptions.
+💡 **Personalized User Experience**: Many subscription management tools lack personalization, often presenting users with generic dashboards that don't cater to their specific needs and preferences. We were inspired to create a system that goes beyond basic subscription management by offering a personalized dashboard tailored to each user's subscription habits, preferences, and usage patterns.ecisions about their subscriptions.
 
-📈 **Data-Driven Insights**: Another motivation behind the Subscription Management System was to leverage data-driven insights to optimize subscription management. By analyzing user behavior and subscription data, we can provide valuable insights such as subscription utilization rates, cost-saving opportunities, and personalized recommendations for new subscriptions or plan upgrades. These insights empower users to make data-driven decisions and maximize the value they derive from their subscriptions.
+📈 **Data-Driven Insights**: Another motivation behind the Subscription Management System was to leverage data-driven insights to optimize subscription management. By analyzing user behavior and subscription data, we can provide valuable insights such as subscription utilization rates, cost-saving opportunities, and personalized recommendations for new subscriptions or plan upgrades. 
 
-Through these inspirations, we aimed to develop a Subscription Management System that not only simplifies the process of managing subscriptions but also enhances the overall user experience by providing personalized recommendations, data-driven insights, and efficient subscription management capabilities.
+
 
 
 ## Built With
@@ -80,6 +80,36 @@ The oneAPI Data Analytics Library (oneDAL) is a versatile machine learning libra
 
 ```bash
 pip install scikit-learn-intelex
+```
+
+***Usage***
+```bash
+Usage:
+from sklearnex import patch_sklearn
+patch_sklearn()
+```
+By integrating Intel® Extension for Scikit-learn*, We achieved substantial acceleration, with performance gains ranging from 10x to 100x across various applications.
+
+# What We Learned 
+
+### Problem Exploration 🔍
+Explored challenges in subscription management, including tracking services, identifying redundancies, and optimizing costs.
+
+### User-Centric Design 🎨
+Prioritized user experience, emphasizing simplicity and personalization based on iterative feedback.
+
+### Technical Skills Growth 💻
+Expanded skills in frontend and backend development, leveraging Streamlit and Intel® oneAPI libraries for machine learning optimization.
+
+### Agile Methodologies 🔄
+Adopted Scrum and Kanban for effective project management, enabling continuous iteration and responsiveness.
+
+### Business Insights 💼
+Gained valuable market insights through research, competitor analysis, and user validation, shaping product development and commercialization strategies.
+
+### Collaboration & Communication 🤝
+Facilitated seamless teamwork through effective communication tools and practices, ensuring alignment on project goals and priorities.
+
 
 
 

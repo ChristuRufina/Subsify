@@ -1,5 +1,7 @@
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Forks](https://img.shields.io/badge/Forks-0-lightgrey.svg) ![Contributors](https://img.shields.io/badge/Contributors-4-brightgreen.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
+![Forks](https://img.shields.io/badge/Forks-0-lightgrey.svg)
+![Contributors](https://img.shields.io/badge/Contributors-4-brightgreen.svg)
 
 ![Project Banner](gitbanner.jpg)
 # Subsify - Subscription Management Application
@@ -41,7 +43,13 @@ Through these inspirations, we aimed to develop a Subscription Management System
 
 ## Built With
 
-![Intel oneAPI](https://img.icons8.com/color/48/000000/intel.png) ![Python](https://img.icons8.com/color/48/000000/python.png) ![Jupyter](https://img.icons8.com/color/48/000000/jupyter.png) ![LLM](https://img.icons8.com/color/48/000000/llm.png) ![Streamlit](https://img.icons8.com/color/48/000000/streamlit.png)
+![Intel oneAPI](https://img.shields.io/badge/InteloneAPI-yellow.svg)  
+![Python](https://img.shields.io/badge/Python-green.svg)  
+![Jupyter](https://img.shields.io/badge/Jupyter-pink.svg)  
+![LLM](https://img.shields.io/badge/LLM-lightblue.svg)  
+![Streamlit](https://img.shields.io/badge/Streamlit-cream.svg)
+
+
 
 The power of Intel oneAPI, Python, Jupyter, LLM, and Streamlit to create an innovative solution for predicting and analysing the usage of a specific OTT platform
 
